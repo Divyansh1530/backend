@@ -1,8 +1,10 @@
 // require('dotenv').config({path:'./env'}) //ye bhi ek method hai dotenv ko import krne ka
 
+import { app } from './app.js'
 import dotenv from 'dotenv'
 
 import connectDB from './db/index.js'
+
 
 dotenv.config({
     path: './env'
