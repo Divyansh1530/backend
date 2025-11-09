@@ -7,7 +7,7 @@ import connectDB from './db/index.js'
 
 
 dotenv.config({
-    path: './env'
+    path: './.env'
 })
 
 // ye ek experimental tarika hai dotenv import krne ka , iske baad package.json me jaake bhi changes krne hai
